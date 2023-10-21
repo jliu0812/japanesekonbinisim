@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97E35F42AE46EB400F25744 /* voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E35F32AE46EB400F25744 /* voice.swift */; };
 		A990F09E2AC9DE5C00909EBA /* japanesekonbinisimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F09D2AC9DE5C00909EBA /* japanesekonbinisimApp.swift */; };
 		A990F0A02AC9DE5C00909EBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F09F2AC9DE5C00909EBA /* ContentView.swift */; };
 		A990F0A22AC9DE5E00909EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A990F0A12AC9DE5E00909EBA /* Assets.xcassets */; };
@@ -14,6 +15,12 @@
 		A990F0AF2AC9DE5E00909EBA /* japanesekonbinisimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0AE2AC9DE5E00909EBA /* japanesekonbinisimTests.swift */; };
 		A990F0B92AC9DE5E00909EBA /* japanesekonbinisimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0B82AC9DE5E00909EBA /* japanesekonbinisimUITests.swift */; };
 		A990F0BB2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0BA2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift */; };
+		A990F0C82AD1F8AA00909EBA /* prompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0C72AD1F8AA00909EBA /* prompts.swift */; };
+		A990F0D52ADB288800909EBA /* SimResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0CF2AD2231600909EBA /* SimResult.swift */; };
+		A990F0D72ADB28F800909EBA /* SimResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0D62ADB28F800909EBA /* SimResultsView.swift */; };
+		A9BBBE1C2ADB4DD4001C0641 /* PreviewSimResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BBBE1B2ADB4DD4001C0641 /* PreviewSimResults.swift */; };
+		A9BBBE1E2ADC4E1C001C0641 /* DisplayResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BBBE1D2ADC4E1C001C0641 /* DisplayResultView.swift */; };
+		A9BBBE202ADC6AC4001C0641 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BBBE1F2ADC6AC4001C0641 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A97E35F32AE46EB400F25744 /* voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voice.swift; sourceTree = "<group>"; };
 		A990F09A2AC9DE5C00909EBA /* japanesekonbinisim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = japanesekonbinisim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A990F09D2AC9DE5C00909EBA /* japanesekonbinisimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanesekonbinisimApp.swift; sourceTree = "<group>"; };
 		A990F09F2AC9DE5C00909EBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,12 @@
 		A990F0B42AC9DE5E00909EBA /* japanesekonbinisimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = japanesekonbinisimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A990F0B82AC9DE5E00909EBA /* japanesekonbinisimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanesekonbinisimUITests.swift; sourceTree = "<group>"; };
 		A990F0BA2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanesekonbinisimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A990F0C72AD1F8AA00909EBA /* prompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prompts.swift; sourceTree = "<group>"; };
+		A990F0CF2AD2231600909EBA /* SimResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimResult.swift; sourceTree = "<group>"; };
+		A990F0D62ADB28F800909EBA /* SimResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimResultsView.swift; sourceTree = "<group>"; };
+		A9BBBE1B2ADB4DD4001C0641 /* PreviewSimResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSimResults.swift; sourceTree = "<group>"; };
+		A9BBBE1D2ADC4E1C001C0641 /* DisplayResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResultView.swift; sourceTree = "<group>"; };
+		A9BBBE1F2ADC6AC4001C0641 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +108,12 @@
 		A990F09C2AC9DE5C00909EBA /* japanesekonbinisim */ = {
 			isa = PBXGroup;
 			children = (
+				A9BBBE212ADC6E40001C0641 /* Services */,
+				A9BBBE1A2ADB4D96001C0641 /* Support */,
+				A990F0D32ADB281A00909EBA /* Model */,
+				A990F0D22ADB27AF00909EBA /* Views */,
+				A990F0CE2AD221B600909EBA /* Resources */,
 				A990F09D2AC9DE5C00909EBA /* japanesekonbinisimApp.swift */,
-				A990F09F2AC9DE5C00909EBA /* ContentView.swift */,
-				A990F0A12AC9DE5E00909EBA /* Assets.xcassets */,
 				A990F0A32AC9DE5E00909EBA /* Preview Content */,
 			);
 			path = japanesekonbinisim;
@@ -125,6 +142,50 @@
 				A990F0BA2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift */,
 			);
 			path = japanesekonbinisimUITests;
+			sourceTree = "<group>";
+		};
+		A990F0CE2AD221B600909EBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A990F0A12AC9DE5E00909EBA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A990F0D22ADB27AF00909EBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A990F0D62ADB28F800909EBA /* SimResultsView.swift */,
+				A990F09F2AC9DE5C00909EBA /* ContentView.swift */,
+				A9BBBE1F2ADC6AC4001C0641 /* GameView.swift */,
+				A9BBBE1D2ADC4E1C001C0641 /* DisplayResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A990F0D32ADB281A00909EBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A990F0CF2AD2231600909EBA /* SimResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9BBBE1A2ADB4D96001C0641 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A9BBBE1B2ADB4DD4001C0641 /* PreviewSimResults.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A9BBBE212ADC6E40001C0641 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A990F0C72AD1F8AA00909EBA /* prompts.swift */,
+				A97E35F32AE46EB400F25744 /* voice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A990F0A02AC9DE5C00909EBA /* ContentView.swift in Sources */,
+				A9BBBE1C2ADB4DD4001C0641 /* PreviewSimResults.swift in Sources */,
 				A990F09E2AC9DE5C00909EBA /* japanesekonbinisimApp.swift in Sources */,
+				A990F0D72ADB28F800909EBA /* SimResultsView.swift in Sources */,
+				A97E35F42AE46EB400F25744 /* voice.swift in Sources */,
+				A9BBBE1E2ADC4E1C001C0641 /* DisplayResultView.swift in Sources */,
+				A990F0D52ADB288800909EBA /* SimResult.swift in Sources */,
+				A9BBBE202ADC6AC4001C0641 /* GameView.swift in Sources */,
+				A990F0C82AD1F8AA00909EBA /* prompts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"japanesekonbinisim/Preview Content\"";
+				DEVELOPMENT_TEAM = 56N563B964;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"japanesekonbinisim/Preview Content\"";
+				DEVELOPMENT_TEAM = 56N563B964;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
