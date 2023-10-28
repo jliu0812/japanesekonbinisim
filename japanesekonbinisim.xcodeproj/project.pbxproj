@@ -12,9 +12,6 @@
 		A990F0A02AC9DE5C00909EBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F09F2AC9DE5C00909EBA /* ContentView.swift */; };
 		A990F0A22AC9DE5E00909EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A990F0A12AC9DE5E00909EBA /* Assets.xcassets */; };
 		A990F0A52AC9DE5E00909EBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A990F0A42AC9DE5E00909EBA /* Preview Assets.xcassets */; };
-		A990F0AF2AC9DE5E00909EBA /* japanesekonbinisimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0AE2AC9DE5E00909EBA /* japanesekonbinisimTests.swift */; };
-		A990F0B92AC9DE5E00909EBA /* japanesekonbinisimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0B82AC9DE5E00909EBA /* japanesekonbinisimUITests.swift */; };
-		A990F0BB2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0BA2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift */; };
 		A990F0C82AD1F8AA00909EBA /* prompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0C72AD1F8AA00909EBA /* prompts.swift */; };
 		A990F0D52ADB288800909EBA /* SimResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0CF2AD2231600909EBA /* SimResult.swift */; };
 		A990F0D72ADB28F800909EBA /* SimResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990F0D62ADB28F800909EBA /* SimResultsView.swift */; };
@@ -48,13 +45,11 @@
 		A990F0A12AC9DE5E00909EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A990F0A42AC9DE5E00909EBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A990F0AA2AC9DE5E00909EBA /* japanesekonbinisimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = japanesekonbinisimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A990F0AE2AC9DE5E00909EBA /* japanesekonbinisimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanesekonbinisimTests.swift; sourceTree = "<group>"; };
 		A990F0B42AC9DE5E00909EBA /* japanesekonbinisimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = japanesekonbinisimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A990F0B82AC9DE5E00909EBA /* japanesekonbinisimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanesekonbinisimUITests.swift; sourceTree = "<group>"; };
-		A990F0BA2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japanesekonbinisimUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A990F0C72AD1F8AA00909EBA /* prompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prompts.swift; sourceTree = "<group>"; };
 		A990F0CF2AD2231600909EBA /* SimResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimResult.swift; sourceTree = "<group>"; };
 		A990F0D62ADB28F800909EBA /* SimResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimResultsView.swift; sourceTree = "<group>"; };
+		A9AB23552AED78C40087507D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A9BBBE1B2ADB4DD4001C0641 /* PreviewSimResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSimResults.swift; sourceTree = "<group>"; };
 		A9BBBE1D2ADC4E1C001C0641 /* DisplayResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResultView.swift; sourceTree = "<group>"; };
 		A9BBBE1F2ADC6AC4001C0641 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -88,9 +83,8 @@
 		A990F0912AC9DE5C00909EBA = {
 			isa = PBXGroup;
 			children = (
+				A9AB23552AED78C40087507D /* README.md */,
 				A990F09C2AC9DE5C00909EBA /* japanesekonbinisim */,
-				A990F0AD2AC9DE5E00909EBA /* japanesekonbinisimTests */,
-				A990F0B72AC9DE5E00909EBA /* japanesekonbinisimUITests */,
 				A990F09B2AC9DE5C00909EBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,23 +119,6 @@
 				A990F0A42AC9DE5E00909EBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A990F0AD2AC9DE5E00909EBA /* japanesekonbinisimTests */ = {
-			isa = PBXGroup;
-			children = (
-				A990F0AE2AC9DE5E00909EBA /* japanesekonbinisimTests.swift */,
-			);
-			path = japanesekonbinisimTests;
-			sourceTree = "<group>";
-		};
-		A990F0B72AC9DE5E00909EBA /* japanesekonbinisimUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A990F0B82AC9DE5E00909EBA /* japanesekonbinisimUITests.swift */,
-				A990F0BA2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift */,
-			);
-			path = japanesekonbinisimUITests;
 			sourceTree = "<group>";
 		};
 		A990F0CE2AD221B600909EBA /* Resources */ = {
@@ -334,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A990F0AF2AC9DE5E00909EBA /* japanesekonbinisimTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A990F0BB2AC9DE5E00909EBA /* japanesekonbinisimUITestsLaunchTests.swift in Sources */,
-				A990F0B92AC9DE5E00909EBA /* japanesekonbinisimUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
